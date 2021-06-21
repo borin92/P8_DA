@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine": "^3.7.0",
+    "jasmine-core": "^2.0.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "jsdoc-template": "^1.2.0",
+    "minami": "^1.2.3",
+    "todomvc-app-css": "^2.0.1",
+    "todomvc-common": "^1.0.1"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "jsdoc": "node_modules/.bin/jsdoc -c ./configdoc.conf.json --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
